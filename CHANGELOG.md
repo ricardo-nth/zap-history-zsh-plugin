@@ -5,12 +5,12 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- `--dry-run` mode for previewing bulk matches before deletion.
-- `zap --undo` to restore the most recently deleted command set.
 - Time-scoped cleanup flags such as `--since` and `--before`.
-- Repo-aware and directory-aware filtering for safer bulk operations.
 - Protected-pattern rules so sensitive/important commands are never deleted by accident.
 - `zap stats` summary view for quick history-cleanup insights.
+- `--dry-run` mode for previewing bulk matches before deletion.
+- `zap --undo` to restore the most recently deleted command set.
+- Repo-aware and directory-aware filtering for safer bulk operations.
 - Optional background index pre-warm on shell startup.
 - Dedicated tests/fixtures for multiline and extended-history edge cases.
 - Optional per-user config file support (for defaults and keybind overrides).
